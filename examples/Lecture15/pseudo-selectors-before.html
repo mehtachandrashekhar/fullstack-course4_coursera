@@ -5,8 +5,37 @@
 <title>Pseudo Class Selectors</title>
 <style>
 /* Styles go here. */
+header li {
+  list-style: none;
+  
+}
 
 
+a:link, a:visited {
+  text-decoration: none;
+  border:2px solid black;
+  color:darkblue;
+  width: 300px;
+  margin: 2px;
+  display: block;
+  text-align: center;
+  background-color: aquamarine;
+}
+a:hover, a:active {
+  background-color: black;
+  color: white;
+  
+}
+section div:nth-child(odd) {
+  background-color: gray;
+}
+header li:nth-child(2) {
+  font-style: italic;
+}
+section div:nth-child(even):hover {
+  color:aliceblue;
+  background:darkblue;
+}
 </style>
 </head>
 <body>
