@@ -1,4 +1,8 @@
 body {
-  background-color: gray;
+  background-color:chocolate;
   font-size: 130%;
+}
+
+h1 {
+  background-color: magenta;
 }
